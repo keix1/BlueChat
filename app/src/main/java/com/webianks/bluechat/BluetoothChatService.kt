@@ -32,7 +32,9 @@ class BluetoothChatService(context: Context, handler: Handler){
     private val  TAG: String = javaClass.simpleName
 
     // Unique UUID for this application
-    private val MY_UUID_SECURE = UUID.fromString("29621b37-e817-485a-a258-52da5261421a")
+    //SPP
+    private val MY_UUID_SECURE = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB")
+    //private val MY_UUID_SECURE = UUID.fromString("29621b37-e817-485a-a258-52da5261421a")
     private val MY_UUID_INSECURE = UUID.fromString("d620cd2b-e0a4-435b-b02e-40324d57195b")
 
 
